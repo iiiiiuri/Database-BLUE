@@ -54,24 +54,30 @@ body{
     margin:0;
     font-family: 'K2D', sans-serif;
     background: rgb(0,56,112);
+    padding: 0;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+
+.carrosel{
+    width:40vw;
+    height: 20vh;
+}
+
+.for_slick-next .slick-arrow{
+    display: none;
 }
 
 
 
 
-
-
-
-
-
-
-@media(min-width: 753.5px){
-    .menuToggle{
-        display: none;
-   }
-}
-@media(max-width: 754px){
-    .menu{
-        display: none;
-   }
-}
