@@ -1,65 +1,76 @@
-|*{
+|* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     font-family: 'K2D', sans-serif;
     background-color: #D3D3D3;
 }
-.cabecalho{
+
+.cabecalho {
     background-color: #FFFFFF21;
     height: 80px;
 }
-.logo{
+
+.logo {
     display: inline-block;
     width: 250px;
     height: 50px;
     padding: 10px;
 }
-.logo img{
+
+.logo img {
     height: 100%;
     width: 100%;
 }
-.menuToggle{
-    float:right;
+
+.menuToggle {
+    float: right;
     margin: 20px 20px;
 }
-.menu{
+
+.menu {
     display: inline-block;
     vertical-align: top;
     height: 250px;
     padding: 25px;
 }
-.menu ul{
-    padding:0;
-    margin:0;
+
+.menu ul {
+    padding: 0;
+    margin: 0;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
-    padding-bottom: 0px ;
+    padding-bottom: 0px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     transition: all .5s;
 }
-.menu a:hover{
+
+.menu a:hover {
     border-bottom: 1px solid white;
 }
 
-body{
-    margin:0;
+body {
+    margin: 0;
     font-family: 'K2D', sans-serif;
-    background: rgb(0,56,112);
-    
+    background: rgb(0, 56, 112);
+
 }
-.main{
+
+.main {
     width: 100%;
-    height:80vh;
+    height: 80vh;
     background: #003870;
     display: flex;
     justify-content: center;
@@ -67,7 +78,8 @@ body{
     flex-direction: row;
     margin-top: 1vh;
 }
-.left{
+
+.left {
     width: 40%;
     height: 80vh;
     display: flex;
@@ -75,7 +87,8 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.right{
+
+.right {
     width: 60%;
     height: 100vh;
     display: flex;
@@ -85,17 +98,18 @@ body{
     margin-left: 1px;
 
 }
-.boxTexto{
+
+.boxTexto {
     width: 25vw;
 }
 
-.imagem{
+.imagem {
     width: 60vw;
     height: 60vh;
     margin-left: 20vw;
 }
 
-h1{
+h1 {
     color: white;
     font-weight: bold;
     font-size: 5rem;
@@ -103,12 +117,12 @@ h1{
     text-shadow: -4px 5px 4px #489CF0;
 }
 
-p{
+p {
     color: white;
     font-size: 2rem;
 }
 
-#Upload{
+#Upload {
     background-color: #489CF0;
     width: 40%;
     height: 9%;
@@ -123,93 +137,104 @@ p{
     align-items: center;
 }
 
-#Upload:hover{
+#Upload:hover {
     box-shadow: 4px 0px 24px #489CF0;
-    
+
 }
 
-@media only screen and (orientation: portrait){
+@media only screen and (orientation: portrait) {
 
-    .main{
-        flex-direction: column-reverse;;
+    .main {
+        flex-direction: column-reverse;
+        ;
         height: 50%;
     }
 
-    h1{
+    h1 {
         font-size: 30%;
     }
-    p{
+
+    p {
         font-size: 1rem;
     }
-    .left{
+
+    .left {
         height: 30vh;
         padding-top: 50px;
 
-}
-.right{
-    height: 30vh;
-    margin: 0;
-    padding-top: 50px;
-}
-    .boxTexto{
+    }
+
+    .right {
+        height: 30vh;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    .boxTexto {
         width: 100%;
     }
-    #Upload{
- 
+
+    #Upload {
+
         width: 60%;
         height: 10%;
         font-size: 1em;
-}
-    .imagem{
-        margin:0;
+    }
+
+    .imagem {
+        margin: 0;
     }
 }
 
-@media(max-width: 1700px){
-    h1{
+@media(max-width: 1700px) {
+    h1 {
         font-size: 2em;
     }
-    p{
+
+    p {
         font-size: 1em;
     }
-    #Upload{
-        font-size: 2em; 
+
+    #Upload {
+        font-size: 2em;
     }
 }
 
-@media(max-width: 998px){
-   #Upload{
- 
+@media(max-width: 998px) {
+    #Upload {
+
         width: 60%;
         height: 10vh;
         font-size: 3em;
         padding: 5px;
-}
+    }
 }
 
-@media(min-width: 753.5px){
-    .menuToggle{
+@media(min-width: 753.5px) {
+    .menuToggle {
         display: none;
-   }
+    }
 }
-@media(max-width: 754px){
-    .menu{
+
+@media(max-width: 754px) {
+    .menu {
         display: none;
-   }
+    }
 
-   @media(max-width: 530px){
-    #Upload{
-        width: 60%;
-        height: 5vh;
-        font-size: 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-   }
-   .main{
-width: 100%;
-height: 50%;
-   }
+    @media(max-width: 530px) {
+        #Upload {
+            width: 60%;
+            height: 5vh;
+            font-size: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-   }
+        .main {
+            width: 100%;
+            height: 50%;
+        }
+
+    }
 }
