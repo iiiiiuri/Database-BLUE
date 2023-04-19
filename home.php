@@ -21,7 +21,7 @@
           <li><a href="home.php">Home</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="#Contact">Contact</a></li>
-          <li><a href="#Price">Price</a></li>
+          <li><a href="price.php">Price</a></li>
         </ul>
       </nav>
     </header>
@@ -38,7 +38,7 @@
           </P>
         </div>
         <button type="submit" name="Upload" id="Upload">
-          Upload<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+          Upgrade <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
           <lord-icon
             src="https://cdn.lordicon.com/udwhdpod.json"
             trigger="loop"
