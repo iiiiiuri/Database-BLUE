@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
   </head>
-  <link rel="stylesheet" href="stylesheet/stylesPrice.css">
+  <link rel="stylesheet" href="stylesheet/styleExplorer.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=K2D:wght@100;700&display=swap" rel="stylesheet">
   <body>
@@ -25,46 +25,13 @@
         </ul>
       </nav>
     </header>
-    <div class = "main">
-      
-       <div class = "esquerda"><img src="">
-       
-    <img id = "free" src="docs/free.svg">
-    <h1>Free</h1>
-    <ul class ="vantagens">
-<li>Armazenamento limitado 500MB.</li>
-<li>Gerenciamento de arquivos.</li>
-<li> Suporte ao cliente.</li>
-   </ul>
+<div class="erro"
+><img src="docs/erro.svg">
+<h1>Em Construção.</h1>
+</div>
 
-    </div>
-   
-    
 
-       <div class = "meio">
-       
-<img id = "moeda50" src="docs/Moeda50.svg">
-<h1>$50</h1>
-<ul class ="vantagens">
-<li>Armazenamento médio 50gb.</li>
-<li>Funcionalidades avançadas de gerenciamento de arquivos.</li>
-<li> Suporte ao cliente via Email.</li>
-   </ul>
-    </div>
-    
 
-       <div class = "direita">
-       
-<img id = "moeda150" src="docs/Moeda150.svg">
-<h1>$150</h1>
-<ul class ="vantagens">
-<li>Armazenamento ilimitado.</li>
-<li>Funcionalidades avançadas de gerenciamento de arquivos, incluindo recursos empresariais.</li>
-<li> Suporte ao cliente em tempo real.</li>
-   </ul>
-    </div>
-    
-      
-    </div>
-  </body>
+
+</body>
 </html>
