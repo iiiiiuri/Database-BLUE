@@ -20,35 +20,48 @@
         <ul>
           <li><a href="home.php">Home</a></li>
           <li><a href="about.php">About</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
           <li><a href="price.php">Price</a></li>
         </ul>
       </nav>
     </header>
     <div class = "main">
       
-       <div class = "esquerda"><img src="" alt="">
+       <div class = "esquerda"><img src="">
        
-    <img id = "free" src="docs/free.svg" alt="">
+    <img id = "free" src="docs/free.svg">
     <h1>Free</h1>
-    <p>Armazenamento limitado 500MB. Gerenciamento de arquivos; Suporte ao cliente.</p>
+    <ul class ="vantagens">
+<li>Armazenamento limitado 500MB.</li>
+<li>Gerenciamento de arquivos.</li>
+<li> Suporte ao cliente.</li>
+   </ul>
+
     </div>
    
     
 
        <div class = "meio">
        
-<img id = "moeda50" src="docs/Moeda50.svg" alt="">
+<img id = "moeda50" src="docs/Moeda50.svg">
 <h1>$50</h1>
-<p></p>
+<ul class ="vantagens">
+<li>Armazenamento médio 50gb.</li>
+<li>Funcionalidades avançadas de gerenciamento de arquivos.</li>
+<li> Suporte ao cliente via Email.</li>
+   </ul>
     </div>
     
 
        <div class = "direita">
        
-<img id = "moeda150" src="docs/Moeda150.svg" alt="">
+<img id = "moeda150" src="docs/Moeda150.svg">
 <h1>$150</h1>
-<p></p>
+<ul class ="vantagens">
+<li>Armazenamento ilimitado.</li>
+<li>Funcionalidades avançadas de gerenciamento de arquivos, incluindo recursos empresariais.</li>
+<li> Suporte ao cliente em tempo real.</li>
+   </ul>
     </div>
     
       

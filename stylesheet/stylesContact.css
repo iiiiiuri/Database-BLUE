@@ -68,61 +68,62 @@ body {
 
 }
 
-.main {
-    width: 100%;
-    height: 100%;
+.erro{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
-
-
-
-#free,#moeda50,#moeda150 {
-    width: 20vw;
-    height: 10vw;
-
-}
-
-.esquerda,
-.meio,
-.direita {
-    display: flex;
-    width: 17vw;
-    height: 50vh;
-    margin: 5%;
-    background-color: #3B638B;
     flex-direction: column;
-    justify-content: top;
-    align-items: center;
-    border-radius: 5%;
-    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
+    width: 30vw;
+    margin-left: 35%;
+
 
 }
 
-h1 {
-    font-size: 1in;
+h1{
+    font-size: 7rem;
     color: white;
+    font-weight: bolder;
+    width: 50vw;
+    margin-left: 35%;
 }
 
-.vantagens {
-    font-size: 28px;
-    color: white;
-    padding-top: 20px;
-    background:rgba(0, 0, 0, 0);
-    margin-top:20px;
-    width: 50vh;
 
+
+@media(max-width: 1700px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    #Upload {
+        font-size: 2em;
+    }
 }
 
-.vantagens{
-list-style: none;
+@media(max-width: 998px) {
+    #Upload {
+
+        width: 60%;
+        height: 10vh;
+        font-size: 3em;
+        padding: 5px;
+    }
 }
 
-.vantagens li:before{
-    
-    content: "\2713";
-    letter-spacing: 10px;
-
+@media(min-width: 753.5px) {
+    .menuToggle {
+        display: none;
+    }
 }
+
+@media(max-width: 754px) {
+    .menu {
+        display: none;
+    }
+}
+
+   

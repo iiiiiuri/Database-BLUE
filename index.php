@@ -19,7 +19,7 @@
     
     
         
-               header('Location: home.php');
+               header('Location: explorer.php');
          
             }
            
