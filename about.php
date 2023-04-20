@@ -42,6 +42,72 @@
         <p>We value transparency in everything we do, working closely with our customers to understand their needs and provide the most appropriate solutions.</p>
       </div>
     </div>
+
+
+
+
+
     <div class = "fim"><img src="docs/DB-BLUE.svg"  width="190" height="100"></div>
+
+    <div class = "Carrosel">
+        <div class = "slider">
+          
+          <div class = "slide">
+            <input type="radio" name="radio" id="radio1">
+            <input type="radio" name="radio" id="radio2">
+            <input type="radio" name="radio" id="radio3">
+
+            <div class="slide1">
+              <img id="primeira"  src="docs/carrosel1.svg" alt="Primeira">
+              <p>We believe that every customer is unique, which is why we offer a wide range of cloud storage solutions that can be customized to meet each customer's needs.</p>
+            </div>
+              
+            <div class="slide2">
+              <img id="segunda" src="docs/carrosel2.svg" alt="Segunda">
+              <p>Our team is made up of experienced and talented professionals, who are always looking for new ideas and trends to keep our company at the forefront of innovation.</p>
+            </div>
+
+
+            <div class="slide3">
+              <img id="terceira" src="docs/carrosel3.svg" alt="Terceira">
+              <p>We value transparency in everything we do, working closely with our customers to understand their needs and provide the most appropriate solutions.</p>
+            </div>
+
+
+            <div class="auto-navigation">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+
+
+            </div>
+
+
+
+          </div>
+            <div class="manual-navigation">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
   </body>
+  <script src="Js/carrosel.js"></script>
 </html>

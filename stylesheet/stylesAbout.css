@@ -8,6 +8,10 @@ body {
     background-color: #D3D3D3;
 }
 
+.Carrosel{
+    display:none;
+}
+
 .cabecalho {
     background-color: #FFFFFF21;
     height: 80px;
@@ -66,6 +70,7 @@ body {
     font-family: 'K2D', sans-serif;
     background: rgb(0, 56, 112);
     padding: 0;
+    
 }
 
 
@@ -77,6 +82,7 @@ body {
     align-items: top;
     justify-content: space-around;
     flex-direction: row;
+    transition: 1s;
 
 
 
@@ -101,6 +107,7 @@ p {
     color: white;
     transition: all.1s;
     padding: 10px;
+    transition: 1s;
 }
 
 p:hover {
@@ -126,38 +133,120 @@ h1 {
 
 @media only screen and (orientation: portrait) {
     .main {
-        margin-top: 100px;
-        flex-direction: column;
-        justify-content: center;
+        display: none;
     }
 
-    p {
-        flex-direction: column;
-        width: 80vw;
+    .Carrosel{
+        display: flex;
+        
     }
 
-    h1 {
-        font-size: 1rem;
-    }
 
     #primeira,
     #segunda,
     #terceira {
-        width: 100%;
-        height: 10vh;
+        
+    width: 87vw;
+    height: 35vh;
+}
+    .slider{
+        margin: 0 auto;
+        width:80vw;
+        height: 500px;
+        overflow: hidden;
+      
+    }
+
+   .slide{
+    width:80vw;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+   
+    }
+
+    .slide input{
+    display: none;
+    }
+
+    .slide{
+     width: 25%;
+     position: relative;   
+     transition: 100ms;
+    }
+
+     .slide img{
+            width:359px ;
+            transition: 2s;
+
+        }
+
+    .manual-navigation{
+        position:absolute;
+        width: 80vw;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 0;
+        padding-top:2vh;
+        transition: 2s;
+    }
+
+    .manual-btn{
+        border: 2px solid white;
+        padding: 1vw;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+        
+    }
+
+    .manual-btn:not(:last-child){
+        margin-right: 30vw;
+        display: block;
+    }
+
+    .manual-btn:hover{
+        background-color: white;
+    }
+
+    #radio1:checked ~ .slide1{
+        margin-left:-2vw;
+        transition: 4s;
+    }
+
+    #radio2:checked ~ .slide1{
+        margin-left: -90vw;
+        transition: 4s;
+    }
+
+    #radio3:checked ~ .slide1{
+        margin-left:-176vw;
+        transition: 1s;
+    }
+
+    p {
+        
+        width: 60vw;
+        height: 5vh;
+        padding: 20px;       
+        font-size: 11px;
+        margin: 10%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
     }
 
     p:hover {
         flex-direction: column;
-        width: 80vw;
+        width: 60vw;
         border: 2px solid white;
     }
 
-    .fim {
+    h1 {
         display: flex;
-        padding-top: 20vw;
-        align-items: center;
-        justify-content: bottom;
+
 
     }
 

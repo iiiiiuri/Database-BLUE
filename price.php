@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
   </head>
-  <link rel="stylesheet" href="stylesheet/stylePrice.css">
+  <link rel="stylesheet" href="stylesheet/stylesPrice.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=K2D:wght@100;700&display=swap" rel="stylesheet">
   <body>
