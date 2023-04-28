@@ -37,7 +37,8 @@
             which can be accessed from any device connected to the internet.
           </P>
         </div>
-        <button type="submit" name="Upload" id="Upload">
+        <form action="index.php">
+        <button type="submit" name="Upload" id="Upload" a>
           Upgrade <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
           <lord-icon
             src="https://cdn.lordicon.com/udwhdpod.json"
@@ -48,6 +49,7 @@
             style="width:7vw;height:7vh;margin-left:1vw;padding:0;">
           </lord-icon>
         </button>
+        </form>
       </div>
     </div>
   </body>
