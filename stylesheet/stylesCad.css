@@ -259,6 +259,10 @@ input::placeholder {
     h2 {
         margin-right: -90px;
     }
+    .boxBotoes{
+        justify-content: center;
+        align-items: center;
+        }
 }
 
 @media only screen and (max-height: 770px) {
@@ -269,6 +273,10 @@ input::placeholder {
     input::placeholder {
         font-size: 1rem;
     }
+    .boxBotoes{
+        justify-content: center;
+        align-items: center;
+        }
 }
 
 @media only screen and (max-height: 480px) {
@@ -298,5 +306,14 @@ input::placeholder {
     input[type=text] {
         margin-bottom: 0px;
     }
+    .boxBotoes{
+        justify-content: center;
+        align-items: center;
+        }
 
+}
+
+.boxBotoes{
+justify-content: center;
+align-items: center;
 }

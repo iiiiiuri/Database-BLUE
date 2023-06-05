@@ -43,6 +43,9 @@
   <label for="phone">Telefone</label>
   <input type="text" id = "phone" class="campos">
 
+  <label for="Obs">Obs</label>
+  <input type="text" id = "Obs" class="campos">
+
  <input type="Button" Value="Enviar" class="send">
 
 
@@ -64,7 +67,7 @@
 
 
     </div>
-
+    <div class = "fim"><img src="docs/DB-BLUE.svg"  width="190" height="100"></div>
 
 
 

@@ -89,7 +89,7 @@ margin: 5%;
 .principal{
 background-color: rgba(0, 0, 0, 0.349);
 width: 20vw;
-height: 55vh;
+height: 70vh;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -110,7 +110,7 @@ label{
 font-size: 2em;
 }
 
-.campos{
+#nome,#phone,#email{
 padding: 5px;
 margin-bottom: 25px;
 width: 12vw;
@@ -118,6 +118,7 @@ height: 2vh;
 border-radius: 10px;
 border:none;
 outline: none;
+font-family: 'K2D';
 }
 
 .send{
@@ -130,4 +131,21 @@ border: none;
 font-family: 'K2D';
 font-weight: 700;
 font-size: 1.7em;
+}
+
+.fim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Obs{
+    padding: 5px;
+    margin-bottom: 25px;
+    width: 12vw;
+    height: 10vh;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    font-family: 'K2D';
 }
