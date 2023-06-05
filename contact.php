@@ -27,56 +27,43 @@
     </header>
 
 
-<div class="main">
+
+    <div class="main">
+
+  <div class="principal">
+
+
+  <h1>Contact Form</h1>
+  <label for="nome">Nome</label>
+  <input type="text" id = "nome" class="campos">
+
+  <label for="email">Email</label>
+  <input type="text" id = "email" class="campos">
+
+  <label for="phone">Telefone</label>
+  <input type="text" id = "phone" class="campos">
+
+ <input type="Button" Value="Enviar" class="send">
+
+
+  </div>
 
 
 
-<div class="primeira">
-<h1>Free</h1>
-<p class=paragrafo>Funcionalidades básicas de gerenciamento de arquivos.</p>
-
-<p class =paragrafo>Armazenamento 500mb.</p>
-
-<p class =paragrafo>Suporte Via Chat-BOT</p>
-
-<input type="button" value="Sign-Up" class = "botao">
 
 
 
 
-</div>
-<div class="segunda">
-<h1>$50/month</h1>
-<h2>Enterprise</h2>
-
-<p class=paragrafo>Funcionalidades avançadas de gerenciamento de arquivos.</p>
-
-<p class =paragrafo>Armazenamento em nuvem ilimitado.</p>
-
-<p class =paragrafo>Suporte ao cliente via Email, Whatsapp, Telegram</p>
-
-<p class =paragrafo>Upload Multiplataforma.</p>
-
-<input type="button" value="Buy-Now" class = "botao">
 
 
-</div>
-<div class="terceira">
-<h1>Standard</h1>
-<h2>$25/month</h2>
-
-<p class=paragrafo>Funcionalidades básicas de gerenciamento de arquivos.</p>
-
-<p class =paragrafo>Armazenamento 500gb.</p>
-
-<p class =paragrafo>Suporte Via Email</p>
-
-<input type="button" value="Buy-Now" class = "botao">
-</div>
 
 
-</div>
 
+
+
+
+
+    </div>
 
 
 

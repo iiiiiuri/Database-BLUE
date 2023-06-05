@@ -77,61 +77,119 @@ body {
 
 }
 
-.main {
-    width: 100%;
-    height: 100%;
-
+.main{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
-}
-
-
-
-#free,#moeda50,#moeda150 {
-    width: 20vw;
-    height: 10vw;
-
-}
-
-.esquerda,
-.meio,
-.direita {
-    display: flex;
-    width: 17vw;
-    height: 50vh;
-    margin: 5%;
-    background-color: #3B638B;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
-    border-radius: 5%;
-    box-shadow: -6px 6px 4px rgba(0, 0, 0, 0.25);
-
-}
-
-h1 {
-    font-size: 1in;
-    color: white;
-}
-
-.vantagens {
-    font-size: 28px;
-    color: white;
-    padding-top: 20px;
-    background:rgba(0, 0, 0, 0);
-    margin-top:20px;
-    width: 50vh;
-
-}
-
-.vantagens{
-list-style: none;
-}
-
-.vantagens li:before{
+    justify-content: center;
     
-    content: "\2713";
-    letter-spacing: 10px;
+}
+
+.primeira,
+.terceira{
+width: 50vw;
+background-color: #06638078;
+height: 65vh;
+margin-left: 16vh;
+margin-right: 16vh;
+border-radius: 20px;
+border: 2px solid rgb(255, 255, 255);
+
+}
+
+.segunda{
+    width: 50vw;
+    background-color: #066380;
+    height: 70vh;
+    margin: 3vh;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255)
+}
+
+.primeira h1{
+    border-bottom: 2px solid rgb(255, 255, 255)
+}
+
+
+h1{
+color: #ffffff;
+text-align: center;
+font-size: 5em;
+margin: 0;
+padding: 0;
+
+
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid rgb(255, 255, 255)
+}
+
+.paragrafo{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1vw;
+    text-decoration: underline  rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.segunda .paragrafo{
+    font-size: 1.1vw;
+}
+
+
+.botao{
+    background-color: #01ACEA;
+    border: none;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 25px;
+    font-size: 3em;
+    align-items: center;
+    margin-left: 15%;
+    color: white;
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.botao:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.438);
+    transition: all .3s;
+    cursor: pointer;
+
+}
+
+.primeira .botao{
+    margin-top: 17vh;
+
+}
+
+.segunda .botao{
+    margin-top: 5vh;
+}
+
+.terceira .botao{
+    margin-top: 10vh;
+}
+
+.primeira:hover,
+.segunda:hover,
+.terceira:hover{
+    box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.623);
+    transition: all .3s;
+}
+
+
+.fim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
