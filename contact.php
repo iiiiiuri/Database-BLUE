@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
   </head>
-  <link rel="stylesheet" href="stylesheet/styleExplorer.css">
+  <link rel="stylesheet" href="stylesheet/stylesContact.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=K2D:wght@100;700&display=swap" rel="stylesheet">
   <body>
@@ -25,10 +25,58 @@
         </ul>
       </nav>
     </header>
-<div class="erro"
-><img src="docs/erro.svg">
-<h1>Em Construção.</h1>
+
+
+<div class="main">
+
+
+
+<div class="primeira">
+<h1>Free</h1>
+<p class=paragrafo>Funcionalidades básicas de gerenciamento de arquivos.</p>
+
+<p class =paragrafo>Armazenamento 500mb.</p>
+
+<p class =paragrafo>Suporte Via Chat-BOT</p>
+
+<input type="button" value="Sign-Up" class = "botao">
+
+
+
+
 </div>
+<div class="segunda">
+<h1>$50/month</h1>
+<h2>Enterprise</h2>
+
+<p class=paragrafo>Funcionalidades avançadas de gerenciamento de arquivos.</p>
+
+<p class =paragrafo>Armazenamento em nuvem ilimitado.</p>
+
+<p class =paragrafo>Suporte ao cliente via Email, Whatsapp, Telegram</p>
+
+<p class =paragrafo>Upload Multiplataforma.</p>
+
+<input type="button" value="Buy-Now" class = "botao">
+
+
+</div>
+<div class="terceira">
+<h1>Standard</h1>
+<h2>$25/month</h2>
+
+<p class=paragrafo>Funcionalidades básicas de gerenciamento de arquivos.</p>
+
+<p class =paragrafo>Armazenamento 500gb.</p>
+
+<p class =paragrafo>Suporte Via Email</p>
+
+<input type="button" value="Buy-Now" class = "botao">
+</div>
+
+
+</div>
+
 
 
 

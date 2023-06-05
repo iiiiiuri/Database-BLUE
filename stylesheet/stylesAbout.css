@@ -8,6 +8,16 @@ body {
     background-color: #D3D3D3;
 }
 
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+
+
 .Carrosel {
     display: none;
 }
@@ -30,8 +40,7 @@ body {
 }
 
 .menuToggle {
-    float: right;
-    margin: 20px 20px;
+    display: none;
 }
 
 .menu {
@@ -125,7 +134,7 @@ h1 {
 }
 
 .fim {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
@@ -256,8 +265,14 @@ h1 {
     }
 }
 
-@media(max-width: 754px) {
+@media(max-width: 760px) {
     .menu {
         display: none;
+    }
+
+    .menuToggle {
+        float: right;
+        margin: 20px 20px;
+        display: inline;
     }
 }

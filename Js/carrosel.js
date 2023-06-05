@@ -17,3 +17,5 @@ function nextImg(){
     document.getElementById("radio"+count).checked = true;
 }
 
+
+

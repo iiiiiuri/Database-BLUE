@@ -8,6 +8,15 @@ body {
     background-color: #D3D3D3;
 }
 
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+
 .cabecalho {
     background-color: #FFFFFF21;
     height: 80px;
@@ -124,12 +133,12 @@ p {
 
 #Upload  {
     background-color: #489CF0;
-    width: 40%;
-    height: 9%;
+    width: auto;
+    height: auto;
     border: none;
     border-radius: 20px;
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     transition: all.4s;
     cursor: pointer;
     display: flex;
@@ -176,9 +185,11 @@ p {
 
     #Upload {
 
-        width: 60%;
-        height: 10%;
+        width: auto;
+        height: auto;
         font-size: 1em;
+        padding: 4px;
+        margin: 4px;
     }
 
     .imagem {
@@ -195,19 +206,10 @@ p {
         font-size: 1em;
     }
 
-    #Upload {
-        font-size: 2em;
-    }
 }
 
 @media(max-width: 998px) {
-    #Upload {
 
-        width: 60%;
-        height: 10vh;
-        font-size: 3em;
-        padding: 5px;
-    }
 }
 
 @media(min-width: 753.5px) {
@@ -222,14 +224,7 @@ p {
     }
 
     @media(max-width: 530px) {
-        #Upload {
-            width: 60%;
-            height: 5vh;
-            font-size: 1em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+
 
         .main {
             width: 100%;

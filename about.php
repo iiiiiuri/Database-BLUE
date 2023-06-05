@@ -28,17 +28,17 @@
     <div class="main" >
       <div>
         <h1>Services</h1>
-        <img id ="primeira" src="docs/carrosel1.svg" > </img>
+        <img id ="primeira" src="docs/carrosel1.svg" ></img>
         <p>We believe that every customer is unique, which is why we offer a wide range of cloud storage solutions that can be customized to meet each customer's needs.</p>
       </div>
       <div>
         <h1>Team</h1>
-        <img id ="segunda" src="docs/carrosel2.svg" > </img>
+        <img id ="segunda" src="docs/carrosel2.svg" ></img>
         <p>Our team is made up of experienced and talented professionals, who are always looking for new ideas and trends to keep our company at the forefront of innovation.</p>
       </div>
       <div>
         <h1>Commitment</h1>
-        <img id ="terceira" src="docs/carrosel3.svg" > </img>
+        <img id ="terceira" src="docs/carrosel3.svg" ></img>
         <p>We value transparency in everything we do, working closely with our customers to understand their needs and provide the most appropriate solutions.</p>
       </div>
     </div>

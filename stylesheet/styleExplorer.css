@@ -2,12 +2,25 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
     font-family: 'K2D', sans-serif;
     background-color: #D3D3D3;
 }
 
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 1;
+  }
+
+  html.is-leaving .transition-fade {
+    opacity: 0;
+  }
 .cabecalho {
     background-color: #FFFFFF21;
     height: 80px;

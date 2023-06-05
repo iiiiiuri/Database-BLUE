@@ -1,6 +1,8 @@
 
 
+
 //CRIANDO CONSTANTES E VARIÁVEIS PARA VERIFICAÇÃO DO CÓDIGO
+const swup = new Swup();
 const forms = document.getElementById('form');
 const inputEmail = document.getElementById('email');
 const inputUser = document.getElementById('user');
